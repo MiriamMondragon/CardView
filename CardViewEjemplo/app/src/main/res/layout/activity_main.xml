@@ -28,6 +28,9 @@
 
                 //Primera CardView con las cerezas
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cere"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
@@ -65,6 +68,9 @@
 
                 //Segunda CardView con la sandía
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/sandia"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -102,6 +108,9 @@
 
                 //Tercera CardView con las bananas
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/banana"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
